@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.change.vpn" name="Change VPN" version="0.0.1" provider-name="jcbastosportela">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Change VPN location</summary>
+		<description lang="en">Calls my vpn location changer script</description>
+		<license>copy with no mercy</license>
+		<language>en</language>
+		<source>https://github.com/jcbastosportela/kodi_change_vpn</source>
+		<website>https://github.com/jcbastosportela/kodi_change_vpn</website>
+		<email>jcbastosportela@gmail.com</email>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<news>First version</news>
+	</extension>
+</addon>

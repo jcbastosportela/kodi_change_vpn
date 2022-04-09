@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30005">
+        <setting label=""      type="bool"     		id="FIRST_TIME"           visible="false" default="true"/>
+        <setting label="30001" type="text"     		id="ROOT_PASS"            option="hidden" default=""/>
+        <setting label="30002" type="folder"   		id="OPENVPN_CONFS_PATH"   default="/etc/openvpn/"/>
+        <setting label="30003" type="text"     		id="OPENVPN_CONF_PATTERN" default="client.conf."/>
+        <setting label="30004" type="executable"    id="CHANGE_SCRIPT"       default="~/changevpn.sh"/>
+	</category>
+</settings>
