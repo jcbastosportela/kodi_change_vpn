@@ -1,1 +1,2 @@
 0.0.1 It works!
+0.0.2 Make it compatible with Kodi 20.x
